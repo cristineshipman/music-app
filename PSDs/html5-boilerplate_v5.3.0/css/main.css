@@ -95,6 +95,122 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ /*------header section------*/
+
+header {
+  width: 100%;
+}
+
+#logo {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+
+/*------main content------*/
+
+main {
+  width: 96%;
+  padding: 0 2%;
+}
+
+/*--- HOME PAGE & REVIEWS PAGE ----*/
+
+/*featured news items*/
+
+.top-story{
+  width: 100%;
+}
+
+.top-image{
+  width: 100%;
+}
+
+/*sidebar*/
+.sidebar {
+  width: 100%;
+}
+
+.sidebar-upcoming, .sidebar-faq {
+  display: none;
+}
+
+/*news/review feed*/
+
+.feed{
+  width: 100%;
+}
+
+.feed p {
+  display: none;
+}
+
+.feed-item{
+  clear:both;
+}
+
+.feed-info {
+  width:43%;
+  float: left;
+}
+
+.feed-img {
+  width:46%auto;
+  float: left;
+}
+/*--- DETAILED PAGES ----*/
+.review-img, .news-img {
+  width: 100%;
+}
+
+/*footer*/
+
+footer{
+  width:100%;
+  margin: auto;
+}
+
+#footer-logo{
+  width: 47.5%;
+  margin: auto;
+}
+/* ==============================================
+
+  Media Queries for Responsive Design.
+
+  These Media Queries override the primary ('mobile first') styles.
+
+  ================================================ */
+
+@media (min-width: 768) {
+
+  /*HEADER SECTION*/
+
+  .main-header{
+    width: 94%;
+  }
+
+#logo {
+  width: 40%;
+  float: left;
+}
+
+nav {
+  width: 60%;
+  float: right;
+}
+
+}
+
+@media(min-width: 940px){
+
+
+
+}
+
 
 
 
